@@ -1,0 +1,38 @@
+html{
+	background-image: url("images/stardust.png")
+}
+header{
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 30px;
+	color: white;
+	font-size: 20px;
+	padding: 30px;
+}
+
+body {
+  font-family: "Playfair Display", "Helvetica", "Arial", "san-serif";
+  line-height: 1.4em;
+}
+
+article {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+h2 {
+color: rgba(0, 153, 153);
+
+}
+article {
+	background-image: url("images/prism.png");*/
+}
+
+header img {
+	border-radius: 30px;
+}
+img{
+	width: 200px;
+}
+
+
