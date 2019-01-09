@@ -1,0 +1,52 @@
+/*Add colored borders and margin/paddings */
+html{
+	background-image: url("images/stardust.png")
+}
+
+header, section, aside, footer{
+	padding: 10px;
+	margin: 5px;
+	font-family: Arial,san-serif;
+	color: #E8ECED;
+}
+button:hover{
+	color:white;
+}
+#logo{
+	width: 80px;
+}
+#face{
+	width:200px;
+	border-radius: 30px;
+}
+.center{
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 50%;
+}
+nav{
+	float:right;
+}
+nav ul li{
+	display:inline-block;
+	margin-left:16px;
+}
+nav ul{
+	padding-left:0;
+}
+.container{
+	width: 750px;
+	margin:0 auto;
+}
+article{
+	width:500px;
+	float:left;
+}
+aside{
+	width:200px;
+	float:right;
+}
+footer{
+	clear:both;
+}
