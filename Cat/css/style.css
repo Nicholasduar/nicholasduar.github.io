@@ -1,0 +1,31 @@
+.room{
+  background-image: url('../img/room.jpg');
+  width: 831px;
+  height: 558px;
+  background-size: cover;
+  position: relative;
+}
+
+.kitty {
+  width: 140px;
+
+  /* COMPLETE CHALLENGES HERE*/
+  position: absolute;
+  bottom: 0;
+}
+
+.plant{
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 190px;
+  position: absolute;
+  right: 40px;
+  bottom: 25px;
+
+  /* Check it out! I wonder what this does... */
+  z-index: 2;
+}
+
+.kitty, .plant {
+  border: 2px solid red;
+}
